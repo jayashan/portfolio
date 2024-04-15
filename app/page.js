@@ -1,11 +1,25 @@
+"use client"
+
 import Image from "next/image";
+import { useState, useEffect } from 'react'
+import Loading from "./loading";
+
+export default function Home() {
+
+ const[loading,setLoading]=useState(true);
+
+ useEffect(()=>{
+  setTimeout(()=>{
+    setLoading(false);
+  },6000);
+ },[]);
 
 
-export default async function Home() {
-  await new Promise(resolve=>setTimeout(resolve,6000))
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>home page</h1>
+      {loading?<Loading/>: <h1>app content</h1>
+      
+      }
     </main>
   );
 }
