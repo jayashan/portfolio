@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {loading?<Loading/>: <h1>app content</h1>
+      {loading?<Loading/>: <h1>Anton Jayashan Fernando</h1>
       
       }
     </main>
