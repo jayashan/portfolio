@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main>
       {loading?<Loading/>:
-          <div className="flex flex-col w-full md:w-auto">
+          <div className="flex flex-col w-full md:w-auto sm:w-auto">
           <section className="bg-gray-100 dark:bg-gray-200 py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6 flex flex-col md:flex-row items-center justify-center gap-8">
               <div className="flex-shrink-0">
@@ -33,7 +33,7 @@ export default function Home() {
                 <p className="text-gray-500 dark:text-gray-400 mt-2 md:text-xl">Full-Stack Developer</p>
                 <p className="text-gray-500 dark:text-gray-400 mt-4 max-w-[600px] md:text-xl">
                   I am a passionate full-stack developer with a strong background in building modern web applications. I
-                  love creating intuitive and user-friendly interfaces that solve real-world problems.
+                  love creating intuitive and user-friendly interfaces that solve real-world problems !.
                 </p>
               </div>
             </div>
