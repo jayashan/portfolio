@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main>
       {loading?<Loading/>:
-          <div className="flex flex-col">
+          <div className="flex flex-col w-full md:w-auto">
           <section className="bg-gray-100 dark:bg-gray-200 py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6 flex flex-col md:flex-row items-center justify-center gap-8">
               <div className="flex-shrink-0">
