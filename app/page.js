@@ -102,7 +102,7 @@ export default function Home() {
           
             <>
               <div className="flex flex-col">
-                <div className="w-full border-solid border-2 border-sky-500">
+                <div className="w-full">
                 <Navbar className="mx-auto max-w-screen-xl px-6 py-3">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
@@ -111,7 +111,7 @@ export default function Home() {
           variant="h6"
           className="mr-4 cursor-pointer py-1.5"
         >
-          Material Tailwind
+          
         </Typography>
         <div className="hidden lg:block">
           <NavList />
@@ -134,12 +134,12 @@ export default function Home() {
       </Collapse>
     </Navbar>
                 </div>
-                <div className="border-solid border-2 border-sky-500 m-auto">
-                <Card className="w-96">
-      <CardHeader floated={false} className="h-80">
-      <Image class="transition ease-in-out delay-150 hover:scale-110 duration-300" src={profilePic} alt=""></Image>
+                <div className="m-auto py-10">
+                <div className="w-96">
+      
+      <Image class="transition ease-in-out delay-150 hover:scale-110 duration-300 rounded-full" src={profilePic} alt=""></Image>
               
-      </CardHeader>
+    
       <CardBody className="text-center">
         <Typography variant="h4" color="blue-gray" className="mb-2">
           ANTON JAYASHAN
@@ -154,7 +154,7 @@ export default function Home() {
               </div>
         </Typography>
       </CardBody>
-    </Card>
+    </div>
                 </div>
                 <div className="w-full border-solid border-2 border-sky-500">3</div>
                 <div className="w-full border-solid border-2 border-sky-500">4</div>
